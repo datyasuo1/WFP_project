@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="5473f2b2-92c2-4b45-a9ea-455890a9efef"
-    Publisher="CN=ADMIN"
+    Name="a03b27b0-65c4-4c26-b5b8-067745be45d0"
+    Publisher="CN=LENOVO"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="5473f2b2-92c2-4b45-a9ea-455890a9efef" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="a03b27b0-65c4-4c26-b5b8-067745be45d0" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>AppProject</DisplayName>
-    <PublisherDisplayName>ADMIN</PublisherDisplayName>
+    <PublisherDisplayName>LENOVO</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

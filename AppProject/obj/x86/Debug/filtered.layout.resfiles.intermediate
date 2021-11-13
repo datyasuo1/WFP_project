@@ -1,4 +1,6 @@
 WinMetadata\Windows.winmd
+SQLitePCL.Ext.dll
+SQLitePCL.Ext.pri
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -9,6 +11,7 @@ Assets\Wide310x150Logo.scale-200.png
 App.xbf
 AppProject.xr.xml
 MainPage.xbf
-Pages\Eat-In.xbf
+Pages\Categories.xbf
 Pages\Home.xbf
 Properties\Default.rd.xml
+sqlite3.dll
