@@ -1,1 +1,1 @@
-E:\SEM3\AppProject\AppProject\AppProject.csproj;x86
+D:\Hoc_Tap\WFP\AppProject\AppProject.csproj;x86

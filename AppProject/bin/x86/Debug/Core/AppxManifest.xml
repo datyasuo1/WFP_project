@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="a03b27b0-65c4-4c26-b5b8-067745be45d0" Publisher="CN=LENOVO" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="a03b27b0-65c4-4c26-b5b8-067745be45d0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="5473f2b2-92c2-4b45-a9ea-455890a9efef" Publisher="CN=ADMIN" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="5473f2b2-92c2-4b45-a9ea-455890a9efef" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>AppProject</DisplayName>
-    <PublisherDisplayName>LENOVO</PublisherDisplayName>
+    <PublisherDisplayName>ADMIN</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -48,7 +48,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
     <build:Item Name="OperatingSystem" Version="10.0.19041.1 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.31410.357" />
-    <build:Item Name="ProjectGUID" Value="{3DB1F56E-72E9-470C-A54B-4AD463A044EF}" />
+    <build:Item Name="ProjectGUID" Value="{E17DEC73-974C-4B09-999A-592FC7E85971}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.19041.685" />

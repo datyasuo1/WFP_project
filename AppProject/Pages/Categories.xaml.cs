@@ -12,7 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using AppProject.Models.Entity;
+using AppProject.Models.Enity;
 using AppProject.Services;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -28,15 +28,12 @@ namespace AppProject.Pages
         {
             this.InitializeComponent();
         }
-
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
             Category category = e.Parameter as Category;
-            CategoryName.Text = category.name;
             // Da co category -> lay api du lieu ve
             RenderFoods(category);
-            // neu o page FoodDetail thi api da co tu day
         }
 
         private async void RenderFoods(Category category)

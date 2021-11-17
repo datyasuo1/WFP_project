@@ -8,7 +8,6 @@ namespace AppProject.Adapters
 {
     sealed class ApiURL
     {
-
         private readonly string baseURL = "http://foodgroup.herokuapp.com";
 
         private static ApiURL instance;
@@ -26,7 +25,6 @@ namespace AppProject.Adapters
             }
             return instance;
         }
-
         public string GetApiCategories()
         {
             return String.Format(baseURL + "/api/menu");
@@ -35,14 +33,14 @@ namespace AppProject.Adapters
         {
             return String.Format(baseURL + "/api/today-special");
         }
-        public string GetApiProductDetail()
-        {
-            return String.Format(baseURL + "/api/food/1");
-        }
         public string GetApiCategoryDetail(int id)
         {
             return String.Format(baseURL + "/api/category/" + Convert.ToString(id));
         }
-
+        public string GetApiFoodDetail(int id)
+        {
+            return String.Format(baseURL + "/api/food/" + Convert.ToString(id));
+        }
     }
 }
+

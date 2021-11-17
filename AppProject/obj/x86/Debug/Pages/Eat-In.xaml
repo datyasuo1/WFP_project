@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock Text="Hello" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock Text="u" FontSize="20" HorizontalAlignment="Center" Margin="0,100,0,0"/>
     </Grid>
 </Page>
 

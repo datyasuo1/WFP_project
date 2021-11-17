@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SEM3\\AppProject\\AppProject\\AppProject.csproj": {}
+    "D:\\Hoc_Tap\\WFP\\AppProject\\AppProject.csproj": {}
   },
   "projects": {
-    "E:\\SEM3\\AppProject\\AppProject\\AppProject.csproj": {
+    "D:\\Hoc_Tap\\WFP\\AppProject\\AppProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SEM3\\AppProject\\AppProject\\AppProject.csproj",
+        "projectUniqueName": "D:\\Hoc_Tap\\WFP\\AppProject\\AppProject.csproj",
         "projectName": "AppProject",
-        "projectPath": "E:\\SEM3\\AppProject\\AppProject\\AppProject.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "E:\\SEM3\\AppProject\\AppProject\\obj\\",
+        "projectPath": "D:\\Hoc_Tap\\WFP\\AppProject\\AppProject.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoc_Tap\\WFP\\AppProject\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -46,10 +46,6 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
-            },
-            "SQLitePCL": {
-              "target": "Package",
-              "version": "[3.8.7.2, )"
             }
           },
           "imports": [
