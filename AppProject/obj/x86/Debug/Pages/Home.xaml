@@ -29,7 +29,7 @@
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="0" Margin="50,0,0,0" Background="#AB0A34" Width="190">
                     <StackPanel>
-                        <Image  Width="100" Height="100" Margin="0,15,0,0" HorizontalAlignment="Center"/>
+                        <Image Source="/Assets/chef.jpg" Width="100" Height="100" Margin="0,15,0,0" HorizontalAlignment="Center"/>
                         <TextBlock Text="Fast Foods" FontSize="30" Margin="0,15,0,0" HorizontalAlignment="Center" Foreground="White" FontFamily="Forte" FontWeight="Bold" />
                         <TextBlock Text="Restaurents" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20" Foreground="White" FontFamily="Arial"/>
                     </StackPanel>
@@ -41,9 +41,9 @@
                         <ColumnDefinition Width="50"/>
                         <ColumnDefinition Width="50"/>
                     </Grid.ColumnDefinitions>
-                    <Image Grid.Column="0"  VerticalAlignment="Top" Margin="0,30,0,0" Width="30" Height="30" HorizontalAlignment="Center" />
-                    <Image Grid.Column="1" Source="/Assets/download.png" VerticalAlignment="Top" Margin="0,30,0,0" Width="30" Height="30" HorizontalAlignment="Center"/>
-                    <Image Grid.Column="2" Source="/Assets/images.png" VerticalAlignment="Top" Margin="0,30,0,0" Width="30" Height="30" HorizontalAlignment="Center"/>
+                    <Image Grid.Column="0" Source="/Assets/facebook.png"  VerticalAlignment="Top" Margin="0,30,0,0" Width="30" Height="30" HorizontalAlignment="Center" />
+                    <Image Grid.Column="1" Source="/Assets/twitter.png" VerticalAlignment="Top" Margin="0,30,0,0" Width="30" Height="30" HorizontalAlignment="Center"/>
+                    <Image Grid.Column="2" Source="/Assets/instagram.png" VerticalAlignment="Top" Margin="0,30,0,0" Width="30" Height="30" HorizontalAlignment="Center"/>
                 </Grid>
                 <Grid Grid.Column="3" HorizontalAlignment="Right">
                     <Grid.ColumnDefinitions>
@@ -66,7 +66,7 @@
                         <TextBlock x:ConnectionId='5'                       FontSize="30" Margin="15,10,0,0" FontFamily="Arial" FontWeight="Bold" TextWrapping="Wrap"/>
                         <Image Grid.Column="1" Margin="5,10,5,0"  VerticalAlignment="Center" Height="150" Width="340" >
                             <Image.Source>
-                                <BitmapImage x:ConnectionId='8'                         />
+                                <BitmapImage x:ConnectionId='7'                         />
                             </Image.Source>
                         </Image>
                         <Grid Margin="5,15,5,0" VerticalAlignment="Bottom">
@@ -75,7 +75,7 @@
                                 <ColumnDefinition Width="2*"/>
                             </Grid.ColumnDefinitions>
                             <TextBlock x:ConnectionId='6' Grid.Column="0"                       Foreground="#1E26A2" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            <Button x:ConnectionId='7'                        Content="Read More" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C" />
+                            <Button Content="Read More" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C" />
                         </Grid>
                     </StackPanel>
                 </DataTemplate>

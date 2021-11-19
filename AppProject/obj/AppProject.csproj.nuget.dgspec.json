@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hoc_Tap\\WFP\\AppProject\\AppProject.csproj": {}
+    "E:\\SEM3\\AppProject\\AppProject\\AppProject.csproj": {}
   },
   "projects": {
-    "D:\\Hoc_Tap\\WFP\\AppProject\\AppProject.csproj": {
+    "E:\\SEM3\\AppProject\\AppProject\\AppProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hoc_Tap\\WFP\\AppProject\\AppProject.csproj",
+        "projectUniqueName": "E:\\SEM3\\AppProject\\AppProject\\AppProject.csproj",
         "projectName": "AppProject",
-        "projectPath": "D:\\Hoc_Tap\\WFP\\AppProject\\AppProject.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Hoc_Tap\\WFP\\AppProject\\obj\\",
+        "projectPath": "E:\\SEM3\\AppProject\\AppProject\\AppProject.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "E:\\SEM3\\AppProject\\AppProject\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

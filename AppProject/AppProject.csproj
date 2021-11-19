@@ -129,6 +129,9 @@
     <Compile Include="Pages\Categories.xaml.cs">
       <DependentUpon>Categories.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CategoryDetail.xaml.cs">
+      <DependentUpon>CategoryDetail.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Eat-In.xaml.cs">
       <DependentUpon>Eat-In.xaml</DependentUpon>
     </Compile>
@@ -145,6 +148,10 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\chef.jpg" />
+    <Content Include="Assets\facebook.png" />
+    <Content Include="Assets\instagram.png" />
+    <Content Include="Assets\twitter.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -166,6 +173,10 @@
     <Page Include="Pages\Categories.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\CategoryDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Eat-In.xaml">
       <SubType>Designer</SubType>

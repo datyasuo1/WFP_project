@@ -65,10 +65,10 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="TextWrapping" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
@@ -102,7 +102,6 @@
       <RootProperty Name="UriSource" />
     </RootType>
     <RootType FullName="AppProject.Pages.Categories" />
-    <RootType FullName="AppProject.Pages.Eat_In" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
@@ -112,7 +111,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Background" />
-      <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
       <RootProperty Name="Template" />
@@ -121,6 +119,8 @@
       <RootProperty Name="MaximumRowsOrColumns" />
       <RootProperty Name="Orientation" />
     </RootType>
+    <RootType FullName="AppProject.Pages.CategoryDetail" />
+    <RootType FullName="AppProject.Pages.Eat_In" />
     <RootType FullName="AppProject.Pages.Home" />
   </Roots.RootTypes>
 </Roots>
