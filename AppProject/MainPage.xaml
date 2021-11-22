@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="AppProject.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppProject"
+    xmlns:models="using:AppProject.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <SplitView x:Name="sp" OpenPaneLength="155" DisplayMode="CompactInline" IsPaneOpen="True">
+        <SplitView.Pane>
+            <RelativePanel>
+                <ListView x:Name="Menu" Margin="0,10,0,0">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:MenuItem">
+                            <ListViewItem Tapped="ListViewItem_Tapped" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <FontIcon Tapped="IconClick_Tapped" x:Name="IconClick" Grid.Column="0" FontFamily="Segoe MDL2 Assets" Glyph="{x:Bind Icon}" Margin="0,8,0,0"/>
+                                    <TextBlock Grid.Column="1" Text="{x:Bind Name}" Margin="20,8,0,0"/>
+                                </Grid>
+                            </ListViewItem>
+                        </DataTemplate>
+                    </ListView.ItemTemplate> 
+                </ListView>
+            </RelativePanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <ScrollViewer Margin="10" >
+                <Frame x:Name="MainFram"/>
+            </ScrollViewer>
+        </SplitView.Content>
+    </SplitView>
+</Page>
